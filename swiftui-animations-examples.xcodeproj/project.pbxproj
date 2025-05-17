@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		678268112DD8E2B8006A87D8 /* swiftui-animations-examples */ = {
+		6782682F2DD8E33A006A87D8 /* swiftui-animations-examples */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "swiftui-animations-examples";
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 		678268062DD8E2B8006A87D8 = {
 			isa = PBXGroup;
 			children = (
-				678268112DD8E2B8006A87D8 /* swiftui-animations-examples */,
+				6782682F2DD8E33A006A87D8 /* swiftui-animations-examples */,
 				678268102DD8E2B8006A87D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				678268112DD8E2B8006A87D8 /* swiftui-animations-examples */,
+				6782682F2DD8E33A006A87D8 /* swiftui-animations-examples */,
 			);
 			name = "swiftui-animations-examples";
 			packageProductDependencies = (
@@ -266,7 +266,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proApps.swiftui-animations-examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -293,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proApps.swiftui-animations-examples";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
