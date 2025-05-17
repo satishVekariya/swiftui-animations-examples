@@ -21,6 +21,8 @@ public class GalleryScreenModel {
         var newItems: [GalleryItem] = []
         let clockItem = GalleryItem(name: "Clock Animation", kind: .clockAnimation)
         newItems.append(clockItem)
+        let borderItem = GalleryItem(name: "Border Animation", kind: .borderAnimation)
+        newItems.append(borderItem)
         
         await MainActor.run {
             items = newItems
