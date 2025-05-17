@@ -36,6 +36,13 @@ public struct GalleryScreen: View {
                             )
                             .listRowInsets(EdgeInsets())
                             .listRowSeparator(.hidden)
+                        case .unknownProgressAnimation:
+                            UnknownProgressAnimationCell(
+                                name: item.name,
+                                geometryProxy: geometry
+                            )
+                            .listRowInsets(EdgeInsets())
+                            .listRowSeparator(.hidden)
                         }
                     }
                 }

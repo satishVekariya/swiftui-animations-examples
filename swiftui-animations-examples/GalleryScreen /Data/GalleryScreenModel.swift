@@ -25,7 +25,8 @@ public class GalleryScreenModel {
         newItems.append(borderItem)
         let pacemanItem = GalleryItem(name: "Pac-Man Animation", kind: .pacmanAnimation)
         newItems.append(pacemanItem)
-        
+        let unknownProgressItem = GalleryItem(name: "Unknown Progress Animation", kind: .unknownProgressAnimation)
+        newItems.append(unknownProgressItem)
         
         await MainActor.run {
             items = newItems
