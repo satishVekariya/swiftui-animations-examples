@@ -8,4 +8,5 @@
 public enum GalleryItemKind: Hashable, CaseIterable {
     case clockAnimation
     case borderAnimation
+    case pacmanAnimation
 }

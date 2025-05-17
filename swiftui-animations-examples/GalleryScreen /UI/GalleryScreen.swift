@@ -29,6 +29,13 @@ public struct GalleryScreen: View {
                             )
                             .listRowInsets(EdgeInsets())
                             .listRowSeparator(.hidden)
+                        case .pacmanAnimation:
+                            PacmanAnimationCell(
+                                name: item.name,
+                                geometryProxy: geometry
+                            )
+                            .listRowInsets(EdgeInsets())
+                            .listRowSeparator(.hidden)
                         }
                     }
                 }

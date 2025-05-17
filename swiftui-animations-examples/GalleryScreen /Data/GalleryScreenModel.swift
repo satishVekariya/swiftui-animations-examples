@@ -23,6 +23,9 @@ public class GalleryScreenModel {
         newItems.append(clockItem)
         let borderItem = GalleryItem(name: "Border Animation", kind: .borderAnimation)
         newItems.append(borderItem)
+        let pacemanItem = GalleryItem(name: "Pac-Man Animation", kind: .pacmanAnimation)
+        newItems.append(pacemanItem)
+        
         
         await MainActor.run {
             items = newItems
