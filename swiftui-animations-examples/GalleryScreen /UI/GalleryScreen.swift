@@ -43,6 +43,13 @@ public struct GalleryScreen: View {
                             )
                             .listRowInsets(EdgeInsets())
                             .listRowSeparator(.hidden)
+                        case .circularLineBlinkAnimation:
+                            CircularLineBlinkAnimationCell(
+                                name: item.name,
+                                geometryProxy: geometry
+                            )
+                            .listRowInsets(EdgeInsets())
+                            .listRowSeparator(.hidden)
                         }
                     }
                 }

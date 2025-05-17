@@ -21,12 +21,14 @@ public class GalleryScreenModel {
         var newItems: [GalleryItem] = []
         let clockItem = GalleryItem(name: "Clock Animation", kind: .clockAnimation)
         newItems.append(clockItem)
-        let borderItem = GalleryItem(name: "Border Animation", kind: .borderAnimation)
-        newItems.append(borderItem)
         let pacemanItem = GalleryItem(name: "Pac-Man Animation", kind: .pacmanAnimation)
         newItems.append(pacemanItem)
         let unknownProgressItem = GalleryItem(name: "Unknown Progress Animation", kind: .unknownProgressAnimation)
         newItems.append(unknownProgressItem)
+        let circularLineBlinkItem = GalleryItem(name: "Circle Progress Animation", kind: .circularLineBlinkAnimation)
+        newItems.append(circularLineBlinkItem)
+        let borderItem = GalleryItem(name: "Border Animation", kind: .borderAnimation)
+        newItems.append(borderItem)
         
         await MainActor.run {
             items = newItems
