@@ -33,6 +33,8 @@ public class GalleryScreenModel {
         newItems.append(threeBallsItem)
         let timerAnimationItem = GalleryItem(name: "Timer Animation", kind: .timerAnimation)
         newItems.append(timerAnimationItem)
+        let loadingBarItem = GalleryItem(name: "Loading Bar Animation", kind: .loadingBarAnimation)
+        newItems.append(loadingBarItem)
         
         
         await MainActor.run {
