@@ -12,4 +12,5 @@ public enum GalleryItemKind: Hashable, CaseIterable {
     case unknownProgressAnimation
     case circularLineBlinkAnimation
     case threeBallsRotation
+    case timerAnimation
 }
