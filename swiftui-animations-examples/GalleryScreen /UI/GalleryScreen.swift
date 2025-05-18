@@ -50,6 +50,13 @@ public struct GalleryScreen: View {
                             )
                             .listRowInsets(EdgeInsets())
                             .listRowSeparator(.hidden)
+                        case .threeBallsRotation:
+                            ThreeBallsRotationAnimationCell(
+                                name: item.name,
+                                geometryProxy: geometry
+                            )
+                            .listRowInsets(EdgeInsets())
+                            .listRowSeparator(.hidden)
                         }
                     }
                 }

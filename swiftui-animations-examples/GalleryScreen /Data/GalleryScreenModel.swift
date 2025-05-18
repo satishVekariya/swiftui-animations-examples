@@ -29,6 +29,9 @@ public class GalleryScreenModel {
         newItems.append(circularLineBlinkItem)
         let borderItem = GalleryItem(name: "Border Animation", kind: .borderAnimation)
         newItems.append(borderItem)
+        let threeBallsItem = GalleryItem(name: "Three Balls Rotation Animation", kind: .threeBallsRotation)
+        newItems.append(threeBallsItem)
+        
         
         await MainActor.run {
             items = newItems
