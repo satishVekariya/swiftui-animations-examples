@@ -35,6 +35,8 @@ public class GalleryScreenModel {
         newItems.append(timerAnimationItem)
         let loadingBarItem = GalleryItem(name: "Loading Bar Animation", kind: .loadingBarAnimation)
         newItems.append(loadingBarItem)
+        let shimmerBorderItem = GalleryItem(name: "Shimmer Border Animation", kind: .shimmerBorder)
+        newItems.append(shimmerBorderItem)
         
         
         await MainActor.run {
