@@ -15,4 +15,5 @@ public enum GalleryItemKind: Hashable, CaseIterable {
     case timerAnimation
     case loadingBarAnimation
     case shimmerBorder
+    case coinFlipAnimation
 }

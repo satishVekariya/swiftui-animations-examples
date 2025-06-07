@@ -77,6 +77,13 @@ public struct GalleryScreen: View {
                             )
                             .listRowInsets(EdgeInsets())
                             .listRowSeparator(.hidden)
+                        case .coinFlipAnimation:
+                            CoinFlipAnimationCell(
+                                name: item.name,
+                                geometryProxy: geometry
+                            )
+                            .listRowInsets(EdgeInsets())
+                            .listRowSeparator(.hidden)
                         }
                     }
                 }
