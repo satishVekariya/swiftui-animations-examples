@@ -86,6 +86,9 @@ public struct GalleryScreen: View {
                             .listRowSeparator(.hidden)
                         }
                     }
+                    Spacer(minLength: 100)
+                        .listRowInsets(EdgeInsets())
+                        .listRowSeparator(.hidden)
                 }
                 .listStyle(.plain)
                 .environment(\.defaultMinListRowHeight, 16)
