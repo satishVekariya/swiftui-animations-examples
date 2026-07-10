@@ -12,3 +12,4 @@
 | ![LoadingBarAnimation](/GIF/LoadingBarAnimation.gif) |
 | ![CoinFlipAnimation](/GIF/CoinFlipAnimation.gif) |
 | ![BorderAnimation](/GIF/BorderAnimation.gif) |
+| ![HalftoneDots](/GIF/HalftoneDots.gif) |
