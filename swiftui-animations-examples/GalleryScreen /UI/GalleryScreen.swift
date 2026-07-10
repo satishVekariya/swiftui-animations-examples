@@ -84,6 +84,12 @@ public struct GalleryScreen: View {
                             )
                             .listRowInsets(EdgeInsets())
                             .listRowSeparator(.hidden)
+                        case .halftoneDotsAnimation:
+                            HalftoneDotsAnimationCell(
+                                name: item.name
+                            )
+                            .listRowInsets(EdgeInsets())
+                            .listRowSeparator(.hidden)
                         }
                     }
                     Spacer(minLength: 100)

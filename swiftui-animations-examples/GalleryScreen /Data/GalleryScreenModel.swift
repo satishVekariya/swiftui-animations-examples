@@ -39,8 +39,10 @@ public class GalleryScreenModel {
         newItems.append(shimmerBorderItem)
         let coinFlipItem = GalleryItem(name: "Coin Flip Animation", kind: .coinFlipAnimation)
         newItems.append(coinFlipItem)
-        
-        
+        let halftoneDotsItem = GalleryItem(name: "Halftone Dots Animation", kind: .halftoneDotsAnimation)
+        newItems.append(halftoneDotsItem)
+
+
         await MainActor.run {
             items = newItems
         }
